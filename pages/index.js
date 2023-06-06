@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Чоткі бергери</title>
-        <meta name="title" content="Классные бургеры" />
+        <meta name="title" content="Чоткі бергери" />
       </Head>
       <div className={styles.container}>
         <h1 className={`${styles.title} font-effect-fire-animation`}>
@@ -35,7 +35,7 @@ export default function Home() {
           officia ad facilis non?
         </p>
         <Link href="/burgers" className={styles.btn}>
-          Все бургеры
+          Всі бургери
         </Link>
       </div>
     </>
